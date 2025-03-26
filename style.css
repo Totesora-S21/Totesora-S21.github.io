@@ -1,20 +1,21 @@
 /* Google Fonts - Poppins */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-.body {
+
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
 }
+
 .profile-card {
     display: flex;
     flex-direction: column;
@@ -23,10 +24,11 @@
     width: 100%;
     background: #fff;
     border-radius: 24px;
-    padding: 25px; 
+    padding: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
 }
+
 .profile-card::before {
     content: "";
     position: absolute;
@@ -37,6 +39,7 @@
     border-radius: 24px 24px 0 0;
     background-color: #009B77;
 }
+
 .image {
     position: relative;
     height: 150px;
@@ -46,6 +49,7 @@
     padding: 3 px;
     margin-bottom: 10px;
 }
+
 .image .profile-img {
     height: 100%;
     width: 100%;
@@ -53,25 +57,30 @@
     border-radius: 50%;
     border: 3px solid #fff;
 }
+
 .profile-card .text-data {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #333;
 }
+
 .text-data .name {
     font-size: 22px;
     font-weight: 500;
 }
+
 .text-data .job {
     font-size: 15px;
     font-weight: 400;
 }
+
 .profile-card .media-buttons {
-    display: flex; 
+    display: flex;
     align-items: center;
     margin-top: 15px;
 }
+
 .media-buttons .link {
     display: flex;
     align-items: center;
@@ -85,11 +94,13 @@
     background-color: #009B77;
     text-decoration: none;
 }
+
 .profile-card .buttons {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
+
 .buttons .button {
     color: #fff;
     font-size: 14px;
@@ -102,14 +113,17 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.buttons .button:hover{
+
+.buttons .button:hover {
     background-color: #009B77;
 }
+
 .profile-card .analytics {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
+
 .analytics .data {
     display: flex;
     align-items: center;
@@ -117,10 +131,12 @@
     padding: 0 20px;
     border-right: 2px solid #e7e7e7;
 }
+
 .data i {
     font-size: 18px;
     margin-right: 6px;
 }
+
 .data:last-child {
     border-right: none;
 }
